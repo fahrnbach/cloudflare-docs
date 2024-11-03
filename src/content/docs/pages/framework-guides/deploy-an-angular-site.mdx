@@ -58,6 +58,11 @@ You will be asked to authorize access to your GitHub account if you have not alr
 
 <PagesBuildPreset framework="angular" />
 
+:::caution[On some versions of Angular, You may need to:]
+Change the `Build command` to `npx ng build --output-path dist/cloudflare`\
+Change the `Build directory` to `dist/cloudflare/browser`
+:::
+
 Optionally, you can customize the **Project name** field. It defaults to the GitHub repository's name, but it does not need to match. The **Project name** value is assigned as your `*.pages.dev` subdomain.
 
 4. After completing configuration, select the **Save and Deploy**.
